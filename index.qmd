@@ -2,7 +2,7 @@
 title: "shootmanng.github.io"
 ---
 
-This is a Quarto website. Hello. Bruh\@aol.com bruh bruh
+This is a Quarto website. Hello. Bruh\@aol.com bruh bruh. My dad is cool.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 

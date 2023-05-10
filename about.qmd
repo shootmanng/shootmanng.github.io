@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-About.
+About. He sure is bruh lol.
 
 ```{r}
 1 + 1
