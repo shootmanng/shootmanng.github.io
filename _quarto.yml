@@ -12,7 +12,7 @@ website:
 
 format:
   html:
-    theme: slate
+    theme: sandstone
     css: styles.css
     toc: true
 
