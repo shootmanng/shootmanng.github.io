@@ -2,7 +2,8 @@
 title: "shootmanng.github.io"
 ---
 
-This is a Quarto website. Hello bruh Mr. Menking.
+This is a Quarto website. Hello bruh Mr. Menking. Mr menking
+
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
