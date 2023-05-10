@@ -2,8 +2,9 @@
 title: "shootmanng.github.io"
 ---
 
-This is a Quarto website.
+This is a Quarto website. I would really appreciate if this would work.
 
+$\int_0^1 f(x)=q(s)\pi$
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
