@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-About.
+About. Hi.
 
 ```{r}
 1 + 4
