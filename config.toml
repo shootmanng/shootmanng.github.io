@@ -29,7 +29,7 @@ enableRobotsTXT = true
 # see https://gohugo.io/content-management/multilingual/
 [languages]
   [languages.en]
-    title = "Logorrhea"
+    title = "Scott Hootman-Ng"
     languageName = "en-US 🇺🇸"
     LanguageCode = "en-US"
     contentDir = "content"
