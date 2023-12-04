@@ -8,6 +8,6 @@ This is the content of my published post.
 
 Hello World:
 
-{{< highlight html >}}
+{{< highlight python >}}
 import numpy as np
 {{< /highlight >}}
