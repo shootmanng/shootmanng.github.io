@@ -5,7 +5,7 @@ date = "2023-12-04"
 description = "Solution to day 1 of the Advent of Code challenge."
 tags = [
     "Python",
-    "Advent of Code",
+    "AdventOfCode2023",
 ]
 categories = [
     "coding",
@@ -23,14 +23,12 @@ In particular, we will be focusing on the [Day 1](https://adventofcode.com/2023/
 
 {{< highlight python >}}
 import requests
-
 data = requests.get('https://adventofcode.com/2023/day/1/input')
-
 print(data.text)
 {{< /highlight >}}
 
 Unfortunately, we get the following response trying this:
 
 {{< highlight python >}}
->>>> Puzzle inputs differ by user.  Please log in to get your puzzle input.
+>>> Puzzle inputs differ by user.  Please log in to get your puzzle input.
 {{< /highlight>}}
