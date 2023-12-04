@@ -27,7 +27,9 @@ In particular, we will be focusing on the [Day 1](https://adventofcode.com/2023/
 
 *Disclaimer: I'm a relative newbie with programming, and these posts will be documenting essentially everything I'm learning, including Python itself, while solving these problems. Therefore, a lot, or some, of the following will seem very rudimentary/unnecessary to more experienced readers.*
 
-Our first goal will be to scrape the test data from the given website into our program. Since the data is just a long string of plain text, let's try to naively import it.
+## Part 1
+
+Our first goal will be to import the test data from the given website into our program. Since the data is just a long string of plain text, let's try to naively import it.
 
 {{< highlight python >}}
 import requests
@@ -40,3 +42,10 @@ Unfortunately, like most things, it is not this easy.
 ```
 >>> Puzzle inputs differ by user.  Please log in to get your puzzle 
 ```
+
+Because the website links accounts with Github, I'm going to abandon this method and just download the html locally to my computer and import the file that way.
+
+{{< highlight python >}}
+import numpy as np
+data = np.loadtxt('/path/to/file.txt',dtype=str)
+{{< /highlight >}}
