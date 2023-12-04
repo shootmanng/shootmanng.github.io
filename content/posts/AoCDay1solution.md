@@ -19,7 +19,7 @@ This post will be regarding the Day 1 challenge of the [Advent of Code 2023](htt
 >
 >You don't need a computer science background to participate - just a little programming knowledge and some problem solving skills will get you pretty far. Nor do you need a fancy computer; every problem has a solution that completes in at most 15 seconds on ten-year-old hardware.
 
-In particular, we will be focusing on the [Day 1](https://adventofcode.com/2023/day/1) puzzle. Our first goal will be to scrape the test data from the given website into our program. Since the data is just a long string of plain text, let's try to naively import it:
+In particular, we will be focusing on the [Day 1](https://adventofcode.com/2023/day/1) puzzle. Our first goal will be to scrape the test data from the given website into our program. Since the data is just a long string of plain text, let's try to naively import it.
 
 {{< highlight python >}}
 import requests
@@ -27,8 +27,8 @@ data = requests.get('https://adventofcode.com/2023/day/1/input')
 print(data.text)
 {{< /highlight >}}
 
-Unfortunately, we get the following response trying this:
+Unfortunately, like most things, it is not this easy.
 
-{{< highlight python >}}
->>> Puzzle inputs differ by user.  Please log in to get your puzzle input.
-{{< /highlight>}}
+```
+>>> Puzzle inputs differ by user.  Please log in to get your puzzle 
+```
