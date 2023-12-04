@@ -21,11 +21,13 @@ This post will be regarding the Day 1 challenge of the [Advent of Code 2023](htt
 >
 >You don't need a computer science background to participate - just a little programming knowledge and some problem solving skills will get you pretty far. Nor do you need a fancy computer; every problem has a solution that completes in at most 15 seconds on ten-year-old hardware.
 
+In particular, we will be focusing on the [Day 1](https://adventofcode.com/2023/day/1) puzzle.
+
 # Coding (Python)
 
 *Disclaimer: I'm a relative newbie with programming, and these posts will be documenting essentially everything I'm learning, including Python itself, while solving these problems. Therefore, a lot, or some, of the following will seem very rudimentary/unnecessary to more experienced readers.*
 
-We will be focusing on the [Day 1](https://adventofcode.com/2023/day/1) puzzle. Our first goal will be to scrape the test data from the given website into our program. Since the data is just a long string of plain text, let's try to naively import it.
+Our first goal will be to scrape the test data from the given website into our program. Since the data is just a long string of plain text, let's try to naively import it.
 
 {{< highlight python >}}
 import requests
