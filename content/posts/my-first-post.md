@@ -6,3 +6,6 @@ draft: false
 
 This is the content of my published post.
 
+Hello World:
+
+``` import numpy as np ```
