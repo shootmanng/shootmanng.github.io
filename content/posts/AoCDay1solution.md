@@ -31,11 +31,11 @@ In particular, we will be focusing on the [Day 1](https://adventofcode.com/2023/
 
 Our first goal will be to import the test data from the given website into our program. Since the data is just a long string of plain text, let's try to naively import it.
 
-{{< highlight python >}}
+``` python {linenos=false}
 import requests
 data = requests.get('https://adventofcode.com/2023/day/1/input')
 print(data.text)
-{{< /highlight >}}
+```
 
 Unfortunately, like most things, it is not this easy.
 
