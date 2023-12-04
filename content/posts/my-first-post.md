@@ -8,4 +8,6 @@ This is the content of my published post.
 
 Hello World:
 
-``` import numpy as np ```
+{{< highlight html >}}
+import numpy as np
+{{< /highlight >}}
