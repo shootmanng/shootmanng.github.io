@@ -45,7 +45,7 @@ Unfortunately, like most things, it is not this easy.
 
 Because the website links accounts with Github, I'm going to abandon this method and just download the html locally to my computer and import the file that way.
 
-``` python
+``` python {linenos=false}
 import numpy as np
 data = np.loadtxt('/path/to/file.txt',dtype=str)
 ```
