@@ -25,7 +25,7 @@ In particular, we will be focusing on the [Day 1](https://adventofcode.com/2023/
 
 # Coding (Python)
 
-*Disclaimer: I'm a relative newbie with programming, and these posts will be documenting essentially everything I'm learning, including Python itself, while solving these problems. Therefore, a lot, or some, of the following will seem very rudimentary/unnecessary to more experienced readers.*
+*Disclaimer: I'm a relative newbie with programming, and these posts will be documenting essentially everything I'm learning, including Python itself, while solving these problems. Therefore, a lot, or all, of the following will seem very rudimentary/unnecessary to more experienced readers. Further, my goal is to learn something new and solve puzzles, so my solutions will be far from optimal in terms of efficiency.*
 
 ## Part 1
 
@@ -50,11 +50,18 @@ import numpy as np
 #use numpy to import the text as a string
 data = np.loadtxt('/path/to/file.txt',dtype=str)
 ```
-Now to get to the meat of the matter. We create an array to store our numbers, then loop over each string to check from both the left and right for numbers using a reference number array. At the end we concatenate the left and right found numbers, concatenate them and store them in a new array and finally add together all the entries.
+Now to get to the meat of the matter. We create an array called `num` to serve as a reference to check for numerical values in the given strings. We also create an array `code` to store our numbers of interest in the string.
+
+
 ``` python {linenos=false}
 num = ['0','1','2','3','4','5','6','7','8','9']
 #empty array to store values
 code = []
+```
+
+To extract the digits of interest, we iterate through each string in the provided data. We examine the leftmost character of each string, comparing it to our `num` array to identify the first numeric symbol. If a number is found, we store it in the `code` array for future use and move on to the next string using the break statement. If no number is found, we proceed to the next character on the right in the current string.
+
+``` python {linenos=false}
 #loop over all elements in the input data
 for i in range(len(data)):
     for j in range(len(data[i])):
@@ -68,6 +75,11 @@ for i in range(len(data)):
         else:
             #if not go to next character
             continue
+```
+
+We also need to check starting from the right going leftwards for digits. We create an index `k` to do this reverse iteration and store our digit in the same way as the previous left hand loop.
+
+``` python {linenos=false}
     for j in range(len(data[i])):
          #create an index to read from right to left
          k = len(data[i])-j-1
@@ -79,6 +91,11 @@ for i in range(len(data)):
             break
          else:
             continue
+```
+
+At the end we create of final `answer` array to store our discovered codes by concatenating the left and right numbers stored in the `code` array. Notice we do this by using the optional argument 2 in the range statement `range(-,-,2)` of the loop. This lets us gather things by two, as our final numbers are two digits. Finally, we add together all the entries and get our solution.
+
+``` python {lineos=false}
 #array to store numbers
 answer = []
 
