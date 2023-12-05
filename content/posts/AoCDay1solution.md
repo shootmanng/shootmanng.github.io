@@ -50,7 +50,7 @@ import numpy as np
 #use numpy to import the text as a string
 data = np.loadtxt('/path/to/file.txt',dtype=str)
 ```
-Now to get to the meat of the matter. We create an array called `num` to serve as a reference to check for numerical values in the given strings. We also create an array `code` to store our numbers of interest in the string.
+Now, to get to the heart of the matter. We create an array called `num` to serve as a reference to check for numerical values in the given strings. We also create an array `code` to store our numbers of interest in the string.
 
 
 ``` python {linenos=false}
