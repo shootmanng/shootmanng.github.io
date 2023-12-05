@@ -93,12 +93,11 @@ We also need to check starting from the right going leftwards for digits. We cre
             continue
 ```
 
-At the end we create of final `answer` array to store our discovered codes by concatenating the left and right numbers stored in the `code` array. Notice we do this by using the optional argument 2 in the range statement `range(-,-,2)` of the loop. This lets us gather things by two, as our final numbers are two digits. Finally, we add together all the entries and get our solution.
+At the end we create our final `answer` array to store our discovered codes by concatenating the left and right-hand numbers stored in the `code` array. Notice we do this by using the optional argument 2 in the range statement `range(-,-,2)` of the loop. This lets us iterate things by two, as our final numbers are two digits, so we want to concatenate by groups of two. Lastly, we add together all the entries of `answer`  and get our solution.
 
 ``` python {linenos=false}
 #array to store numbers
 answer = []
-
 #concatenate pairs in the array and turn them into integers to be added
 for i in range(0,len(code)-1,2):
     answer.append(int(code[i]+code[i+1]))
