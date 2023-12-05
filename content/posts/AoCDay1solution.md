@@ -1,5 +1,5 @@
-+++
-author = "Scott Hootman-Ng"
+---
+author: Scott Hootman-Ng
 title = "Advent of Code: Day 1"
 date = "2023-12-04"
 description = "Solution to day 1 of the Advent of Code challenge."
@@ -12,7 +12,7 @@ categories = [
     "problem solving",
 ]
 series = ["Advent of Code 2023"]
-+++
+---
 
 # Background
 This post will be the beginning of a series aimed at solving the puzzles from [Advent of Code 2023](https://adventofcode.com/). I have been hearing murmurs of this challenge for a couple of years, and it has been appearing more and more on my feeds, so I decided to give it a try as I'm on the job market and need more experience solving programming puzzles. Any programming language can be used for these puzzles, I will be using python going forward in these posts. For more information on the challenge check out the webpage or for brevity I'll include the following "about" prompt from the webpage:
