@@ -43,7 +43,7 @@ Unfortunately, like most things, it is not this easy.
 >>> Puzzle inputs differ by user.  Please log in to get your puzzle 
 ```
 
-Because the website links accounts with Github, I'm going to abandon this method and just download the html locally to my computer and import the file as a string array using [numpy](https://numpy.org/).
+Because the website links accounts with Github, I'm going to abandon this method and just download the html locally to my computer and import the file as a string array using [numpy](https://numpy.org/). (Note: I did find [this](https://github.com/wimglenn/advent-of-code-data) which seems to do what I originally imagined doing, but I'm not a speedhacker and I don't thinks it necessary for my use case).
 
 ``` python {linenos=false}
 import numpy as np
