@@ -1,18 +1,18 @@
----
-author: Scott Hootman-Ng
-title: Advent of Code: Day 1
-date: 2023-12-04
-description: Solution to day 1 of the Advent of Code challenge.
-tags: [
++++
+author = "Scott Hootman-Ng"
+title = "Advent of Code: Day 1"
+date = "2023-12-04"
+description = "Solution to day 1 of the Advent of Code challenge."
+tags = [
     "Python",
     "AdventOfCode2023",
 ]
-categories: [
+categories = [
     "coding",
     "problem solving",
 ]
-series: ["Advent of Code 2023"]
----
+series = ["Advent of Code 2023"]
++++
 
 # Background
 This post will be the beginning of a series aimed at solving the puzzles from [Advent of Code 2023](https://adventofcode.com/). I have been hearing murmurs of this challenge for a couple of years, and it has been appearing more and more on my feeds, so I decided to give it a try as I'm on the job market and need more experience solving programming puzzles. Any programming language can be used for these puzzles, I will be using python going forward in these posts. For more information on the challenge check out the webpage or for brevity I'll include the following "about" prompt from the webpage:
@@ -93,7 +93,7 @@ We also need to check starting from the right going leftwards for digits. We cre
             continue
 ```
 
-At the end we create our final `answer` array to store our discovered codes by concatenating the left and right-hand numbers stored in the `code` array. Notice we do this by using the optional argument 2 in the range statement `range(-,-,2)` of the loop. This lets us iterate things by two, as our final numbers are two digits, so we want to concatenate by groups of two. Lastly, we add together all the entries of `answer`  and get our solution.
+At the end we create our final `answer` array to store our discovered codes by concatenating the left and right-hand numbers saved in the `code` array. Notice we do this by using the optional argument 2 in the range statement `range(-,-,2)` of the loop. This lets us iterate things by two, as our final numbers are two digits, so we want to concatenate by groups of two. Lastly, we add together all the entries of `answer`  and get our solution.
 
 ``` python {linenos=false}
 #array to store numbers
