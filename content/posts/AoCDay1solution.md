@@ -95,7 +95,7 @@ We also need to check starting from the right going leftwards for digits. We cre
 
 At the end we create of final `answer` array to store our discovered codes by concatenating the left and right numbers stored in the `code` array. Notice we do this by using the optional argument 2 in the range statement `range(-,-,2)` of the loop. This lets us gather things by two, as our final numbers are two digits. Finally, we add together all the entries and get our solution.
 
-``` python {lineos=false}
+``` python {linenos=false}
 #array to store numbers
 answer = []
 
