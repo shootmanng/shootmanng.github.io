@@ -25,7 +25,7 @@ In particular, we will be focusing on the [Day 1](https://adventofcode.com/2023/
 
 # Coding (Python)
 
-*Disclaimer: I'm a relative newbie with programming, and these posts will be documenting essentially everything I'm learning, including Python itself, while solving these problems. Therefore, a lot, or all, of the following will seem very rudimentary/unnecessary to more experienced readers. Further, my goal is to learn something new and solve puzzles, so my solutions will be far from optimal in terms of efficiency. If you have suggestions regarding efficiency or best practices, please feel free to email (preferable with sources) with suggestions. If you do so, please be **cordial** and **professionl**, otherwise your message will be ignored.*
+*Disclaimer: I'm a relative newbie with programming, and these posts will be documenting essentially everything I'm learning, including Python itself, while solving these problems. Therefore, a lot, or all, of the following will seem very rudimentary/unnecessary to more experienced readers. Further, my goal is to learn something new and solve puzzles, so my solutions will be far from optimal in terms of efficiency. If you have suggestions regarding efficiency or best practices, please feel free to email (preferable with sources) with suggestions. If you do so, please be **cordial** and **professional**, otherwise your message will be ignored.*
 
 ## Part 1
 
